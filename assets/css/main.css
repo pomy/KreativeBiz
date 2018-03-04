@@ -2857,11 +2857,11 @@
 				width: 60%;
 			}
 
-.tiles article:nth-child(7n)  {
-				width: 100%;
-	            align-content: center !important;
+                        .tiles article:nth-child(7n)  {
+				width: 100% !important;
+	                        align-content: center !important;
 			}
-
+ 
 
 			.tiles article:nth-child(7n - 6):before {
 				background-color: red;
