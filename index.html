@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Kreative Biz, Inc. | Tiny Software House in Faisalabad, Pakistan</title>
+
+  <!-- Required Meta Tags Always Come First --> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/pomy/KreativeBiz/master/favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <script src="https://use.fontawesome.com/f2562145fb.js"></script>
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="http://kreative.biz/assets/css/theme.css">
+  <link rel="stylesheet" href="http://kreative.biz/assets/css/sticky-footer.css">
+</head>
+<body class="gradient-half-primary-body-v1 mb-lg-0">
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--bg-transparent u-header--abs-top">
+    <div class="u-header__section">
+      <div id="logoAndNav" class="container">
+        <!-- Nav -->
+        <nav class="navbar navbar-expand u-header__navbar">
+      
+
+          <!-- Button -->
+          <div class="ml-auto">
+              <div class="col-sm-6 text-sm-right">
+                  <!-- Social Networks -->
+                  <ul class="list-inline mb-0">
+                     
+                     
+                    <li class="list-inline-item">
+                      <br /><br />
+                      <a class="btn btn-sm  btn-soft-light btn-bg-transparent" href="https://twitter.com/kreativebiz">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+
+                       </a>
+                    
+                    </li>
+                  
+                  </ul>
+                  <!-- End Social Networks -->
+                </div>
+          </div>
+          <!-- End Button -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <!-- ========== MAIN ========== -->
+  <main id="content" role="main">
+    <!-- Hero Section -->
+    <div class="d-lg-flex" style="background: url(http://kreative.biz/images/bg.png) no-repeat right;">
+      <div class="container d-lg-flex align-items-lg-center min-height-lg-100vh space-bottom-2 space-top-4 space-bottom-lg-3 space-lg-0">
+        <div class="w-lg-60 w-xl-50 mt-lg-9">
+          <div class="mb-6">
+            <h1 class="h2 text-white font-weight-normal">Kreative Biz, Inc.
+              </span></h1>
+            <p class="text-white-70">We first appeared in 2010 as a tiny creative business based in Faisalabad, Pakistan. Now we work global.</p>
+            <p class="text-white-70">We do <span class="text-success">
+                <strong class="u-text-animation u-text-animation--typing"></strong></p>
+          </div>
+
+          <a class="btn btn-white btn-wide text-primary transition-3d-hover" href="mailto:hello@kreative.biz">Say Hello</a>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero Section -->
+  </main>
+  <!-- ========== END MAIN ========== -->
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="u-sticky-footer">
+    <div class="container space-bottom-1">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-sm-5 mb-3 mb-sm-0">
+          <!-- Copyright -->
+          <p class="small text-white-70 mb-0">&copy; Copyright 2019 - All Rights Reserved..</p>
+          <!-- End Copyright -->
+        </div>
+ 
+      </div>
+    </div>
+  </footer>
+  <!-- ========== END FOOTER ========== -->
+
+
+  <!-- JS Global Compulsory -->
+  <script src="http://kreative.biz/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="http://kreative.biz/assets/vendor/jquery-migrate.min.js"></script>
+  <script src="http://kreative.biz/assets/vendor/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="http://kreative.biz/assets/vendor/typed.min.js"></script>
+
+  <!-- JS Front -->
+  <script src="http://kreative.biz/assets/vendor/js/hs.core.js"></script>
+  <script src="http://kreative.biz/assets/vendor/js/components/hs.header.js"></script>
+  <script src="http://kreative.biz/assets/vendor/js/components/hs.unfold.js"></script>
+  <script src="http://kreative.biz/assets/vendor/js/components/hs.focus-state.js"></script>
+  <script src="http://kreative.biz/assets/vendor/js/components/hs.malihu-scrollbar.js"></script>
+  <script src="http://kreative.biz/assets/vendor/js/components/hs.validation.js"></script>
+  <script src="http://kreative.biz/assets/vendor/js/components/hs.fancybox.js"></script>
+  <script src="http://kreative.biz/assets/vendor/js/components/hs.show-animation.js"></script>
+  <script src="http://kreative.biz/assets/vendor/js/components/hs.go-to.js"></script>
+
+
+  
+  <!-- JS Plugins Init. -->
+  <script>
+      $(window).on('load', function () {
+        // initialization of HSMegaMenu component
+        $('.js-mega-menu').HSMegaMenu({
+          event: 'hover',
+          pageContainer: $('.container'),
+          breakpoint: 767.98,
+          hideTimeOut: 0
+        });
+  
+        // initialization of svg injector module
+        $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+      });
+  
+      $(document).on('ready', function () {
+        // initialization of header
+        $.HSCore.components.HSHeader.init($('#header'));
+  
+        // initialization of unfold component
+        $.HSCore.components.HSUnfold.init($('[data-unfold-target]'), {
+          afterOpen: function () {
+            $(this).find('input[type="search"]').focus();
+          }
+        });
+  
+        // initialization of malihu scrollbar
+        $.HSCore.components.HSMalihuScrollBar.init($('.js-scrollbar'));
+  
+        // initialization of forms
+        $.HSCore.components.HSFocusState.init();
+  
+        // initialization of form validation
+        $.HSCore.components.HSValidation.init('.js-validate', {
+          rules: {
+            confirmPassword: {
+              equalTo: '#signupPassword'
+            }
+          }
+        });
+  
+        // initialization of show animations
+        $.HSCore.components.HSShowAnimation.init('.js-animation-link');
+  
+        // initialization of fancybox
+        $.HSCore.components.HSFancyBox.init('.js-fancybox');
+  
+        // initialization of text animation (typing)
+        var typed = new Typed(".u-text-animation.u-text-animation--typing", {
+          strings: ["web design.", "software development.", "virtual assitance.", "app development.", "content writing.", "graphic design.", 
+          "internet marketing.", "domain & hosting."],
+          typeSpeed: 60,
+          loop: true,
+          backSpeed: 25,
+          backDelay: 1500
+        });
+  
+        // initialization of slick carousel
+        $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+  
+        // initialization of go to
+        $.HSCore.components.HSGoTo.init('.js-go-to');
+      });
+    </script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99396082-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-99396082-3');
+</script>
+
+</body>
+</html>
